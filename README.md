@@ -8,5 +8,4 @@ Calculator application to facilitate simple mathematical calculations .
 
 Sample design . 
 
-![Screenshot_1697829324](https://github.com/mohamed15231/Calc_App/assets/75208303/8a4f7c32-38bc-4b24-8042-e045cf0192cf)
-<img src="[url](https://github.com/mohamed15231/Calc_App/assets/75208303/8a4f7c32-38bc-4b24-8042-e045cf0192cf)https://github.com/mohamed15231/Calc_App/assets/75208303/8a4f7c32-38bc-4b24-8042-e045cf0192cf" alt="alt text" width="100" height="100">
+<img src="(https://github.com/mohamed15231/Calc_App/assets/75208303/8a4f7c32-38bc-4b24-8042-e045cf0192cf)https://github.com/mohamed15231/Calc_App/assets/75208303/8a4f7c32-38bc-4b24-8042-e045cf0192cf" alt="alt text" width="100" height="100">
