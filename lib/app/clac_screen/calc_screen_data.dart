@@ -1,5 +1,5 @@
 
-part of 'calc_screen_Imports.dart';
+import 'package:flutter/material.dart';
 
 class CalcScreenData {
   static List<String> button = [
@@ -49,26 +49,22 @@ class CalcScreenData {
   switch(data){
     case "%":
       showData = (pastNumber % double.parse(showData)).toString();
-      isResult=true;
 
     case "+":
       showData = (pastNumber + double.parse(showData)).toString();
-      isResult=true;
 
     case "×":
       showData = (pastNumber * double.parse(showData)).toString();
-      isResult=true;
 
     case "÷":
       showData = (pastNumber / double.parse(showData)).toString();
-      isResult=true;
 
 
     case "-":
       showData = (pastNumber - double.parse(showData)).toString();
-      isResult=true;
 
   }
+  isResult=true;
 
   return showData;
 
@@ -93,7 +89,11 @@ class CalcScreenData {
         .contains(button[index])) {
       isOP(button[index]);
     } else if (index == 0) {
-        showData = "0";
+      isResult=false;
+      showData = "0";
+      result=0.0;
+      operation="";
+
 
     } else if (index == 1) {
       if (showData.contains("-")) {
@@ -108,6 +108,7 @@ class CalcScreenData {
       equal(operation);
     } else {
       if(isResult){
+        isResult=false;
         showData =button[index];
       }else{
         showData =

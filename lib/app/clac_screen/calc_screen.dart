@@ -1,4 +1,7 @@
-part of 'calc_screen_Imports.dart';
+
+import 'package:calculator_app/app/clac_screen/calc_screen_data.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CalcScreen extends StatefulWidget {
   const CalcScreen({Key? key}) : super(key: key);
